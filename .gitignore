@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+*.sqlite3
+*.pyc
+*.pyo
+*.env
+*.log
+*.ini
+
+# Django static files
+staticfiles/
+*.static
+
+# Django migrations
+*/migrations/*.py
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Django test results
+*.coverage
+htmlcov/
+
+# Django Rest Framework schema generation
+*.swagger.json
+*.redoc.html
+*.yaml
+
+# Other build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime*
+*.swp
